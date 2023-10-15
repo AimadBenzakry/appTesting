@@ -8,7 +8,7 @@ export const Hero = ({livres}) => {
     <div>
         <Container  style={{ 'marginTop': '2rem' }}>
         <h2 style={{ 'marginBottom': '1.5rem' }}>La liste des livres</h2>
-        <Table striped bordered hover>
+        <Table striped bordered hover >
             <thead>
                 <tr>
                     <th>Id</th>

@@ -48,7 +48,7 @@ export const AjoutLivre = () => {
                 <Form.Control value={auteur} type="text" placeholder="auteur" onChange={e=>setAuteur(e.target.value)}/>
             </Form.Group>
             <div className="d-grid gap-2">
-                <Button variant="primary" type="button" size="lg" onClick={e=>ajouterLivre(e)}>Ajouter</Button>
+                <Button variant='primary' type="button" size="lg"  onClick={e=>ajouterLivre(e)}>Ajouter</Button>
             </div>
             
         </Form>
